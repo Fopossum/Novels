@@ -1,9 +1,8 @@
-\documentclass{memoir}
+\usepackage{fontspec}
+\usepackage{xunicode}
+\usepackage{polyglossia}
+\setmainlanguage{french}
+\usepackage{pifont}
 
-\usepackage[francais]{babel}
-\usepackage{lmodern}
-\usepackage{graphicx}
-
-
-\title{Nouvelle sans nom}
-\author{Fred P.}
+\renewcommand{\pfbreakdisplay}{%
+\ding{167}\quad\ding{167}\quad\ding{167}}
