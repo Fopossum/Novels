@@ -4,8 +4,8 @@ img_extIsRegExp=false
 img_extensions=.eps .jpg .jpeg .png .pdf .ps .fig .gif
 kileprversion=2
 kileversion=2.1.3
-lastDocument=corps/chapitre_1.tex
-masterDocument=Écorchés.tex
+lastDocument=Ecorches.tex
+masterDocument=
 name=Écorchés
 pkg_extIsRegExp=false
 pkg_extensions=.cls .sty .bbx .cbx .lbx
@@ -16,7 +16,37 @@ src_extensions=.tex .ltx .latex .dtx .ins
 MakeIndex=
 QuickBuild=
 
+[document-settings,item:Ecorches.tex]
+Bookmarks=
+Encoding=UTF-8
+FoldedColumns=
+FoldedLines=
+Highlighting=LaTeX
+Indentation Mode=normal
+Mode=LaTeX
+ReadWrite=true
+
 [document-settings,item:corps/chapitre_1.tex]
+Bookmarks=
+Encoding=UTF-8
+FoldedColumns=
+FoldedLines=
+Highlighting=LaTeX
+Indentation Mode=normal
+Mode=LaTeX
+ReadWrite=true
+
+[document-settings,item:corps/chapitre_2.tex]
+Bookmarks=
+Encoding=UTF-8
+FoldedColumns=
+FoldedLines=
+Highlighting=LaTeX
+Indentation Mode=normal
+Mode=LaTeX
+ReadWrite=true
+
+[document-settings,item:corps/chapitre_3.tex]
 Bookmarks=
 Encoding=UTF-8
 FoldedColumns=
@@ -46,25 +76,45 @@ Indentation Mode=normal
 Mode=LaTeX
 ReadWrite=true
 
-[document-settings,item:Écorchés.tex]
-Bookmarks=
-Encoding=UTF-8
-FoldedColumns=
-FoldedLines=
-Highlighting=LaTeX
-Indentation Mode=normal
-Mode=LaTeX
-ReadWrite=true
+[item:Ecorches.tex]
+archive=true
+column=15
+encoding=UTF-8
+highlight=LaTeX
+line=6
+mode=LaTeX
+open=true
+order=0
 
 [item:corps/chapitre_1.tex]
 archive=true
-column=76
+column=33
 encoding=UTF-8
 highlight=LaTeX
-line=186
+line=3
 mode=LaTeX
 open=true
-order=2
+order=3
+
+[item:corps/chapitre_2.tex]
+archive=true
+column=7
+encoding=UTF-8
+highlight=LaTeX
+line=2
+mode=LaTeX
+open=true
+order=4
+
+[item:corps/chapitre_3.tex]
+archive=true
+column=2
+encoding=UTF-8
+highlight=LaTeX
+line=2
+mode=LaTeX
+open=true
+order=5
 
 [item:corps/synopsis.tex]
 archive=true
@@ -74,27 +124,17 @@ highlight=LaTeX
 line=0
 mode=LaTeX
 open=true
-order=3
+order=2
 
 [item:headers.tex]
 archive=true
-column=0
+column=30
 encoding=UTF-8
 highlight=LaTeX
-line=0
+line=7
 mode=LaTeX
 open=true
 order=1
-
-[item:Écorchés.tex]
-archive=true
-column=0
-encoding=UTF-8
-highlight=LaTeX
-line=0
-mode=LaTeX
-open=true
-order=0
 
 [item:écorchés.kilepr]
 archive=true
@@ -106,9 +146,27 @@ mode=
 open=false
 order=-1
 
+[view-settings,view=0,item:Ecorches.tex]
+CursorColumn=15
+CursorLine=6
+JumpList=
+ViMarks=
+
 [view-settings,view=0,item:corps/chapitre_1.tex]
-CursorColumn=76
-CursorLine=186
+CursorColumn=33
+CursorLine=3
+JumpList=
+ViMarks=
+
+[view-settings,view=0,item:corps/chapitre_2.tex]
+CursorColumn=7
+CursorLine=2
+JumpList=
+ViMarks=
+
+[view-settings,view=0,item:corps/chapitre_3.tex]
+CursorColumn=2
+CursorLine=2
 JumpList=
 ViMarks=
 
@@ -119,13 +177,7 @@ JumpList=
 ViMarks=
 
 [view-settings,view=0,item:headers.tex]
-CursorColumn=0
-CursorLine=0
-JumpList=
-ViMarks=
-
-[view-settings,view=0,item:Écorchés.tex]
-CursorColumn=0
-CursorLine=0
+CursorColumn=30
+CursorLine=7
 JumpList=
 ViMarks=
