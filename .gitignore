@@ -4,6 +4,7 @@
 *.out
 *.toc
 *.pdf
+*.gz
 *.backup
 *.kate-swp
 *.epub
