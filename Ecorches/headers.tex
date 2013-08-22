@@ -5,7 +5,8 @@
 \setmainlanguage{french}
 \usepackage{pifont}
 \usepackage{lettrine}
-\usepackage[pdfauthor={Fred P.},
+\usepackage[unicode=true,
+            pdfauthor={Fred P.},
             pdftitle={Écorchés},
             %pdfsubject={The Subject},
             pdfkeywords={Thriller } {Anticipation },
@@ -14,9 +15,6 @@
 \pagestyle{plain}
 \chapterstyle{dash}
 \usepackage{libertine}
-\setromanfont[Mapping=tex-text]{Linux Libertine}
-\setsansfont[Mapping=tex-text]{Linux Biolinum}
-%\setmonofont[Mapping=tex-text]{Courier New}
-
-%\renewcommand{\pfbreakdisplay}{%
-%\ding{167}\quad\ding{167}\quad\ding{167}}
+\setromanfont[Mapping=tex-text,Ligatures=Common]{Linux Libertine}
+\setsansfont[Mapping=tex-text,Ligatures=Common]{Linux Biolinum}
+\setmonofont[Mapping=tex-text,Ligatures=Common]{Liberation Mono}
