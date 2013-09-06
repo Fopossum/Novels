@@ -1,0 +1,40 @@
+\documentclass[ebook,oneside]{memoir}
+
+%Inclusion des headers
+\include{headers_ebook}
+
+\title{Le caveau}
+\author{Fred Passerin.}
+% Je ne veux pas que \maketitle me colle la date, donc c'est vide.
+\date{}
+
+\begin{document}
+\maketitle
+
+% Ici, c'est le copyright / Copyleft.
+\vspace*{\stretch{1}}
+
+Copyright \copyright{} 2013 Fred Passerin.
+
+\vspace{\baselineskip}
+%Copyleft: cette oeuvre est libre, vous pouvez la copier, la diffuser et la modifier selon les termes de la Licence Art 
+%Libre (\url{http://artlibre.org}) version 1.3 ou ultérieure.
+Tous droits réservés — Reproduction interdite sans autorisation de l'auteur.
+\thispagestyle{empty}
+
+\frontmatter
+
+\mainmatter
+
+\include{corps/chapitre_1}
+\include{corps/chapitre_2}
+\include{corps/chapitre_3}
+\include{corps/epilogue}
+
+\backmatter
+
+\include{remerciements}
+
+\tableofcontents
+
+\end{document}
