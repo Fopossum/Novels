@@ -1,6 +1,9 @@
 \usepackage{fontspec}
 \usepackage{xunicode}
 \usepackage{xltxtra}
+\defaultfontfeatures{Ligatures=TeX} %Numbers=OldStyle
+\setmainfont{Linux Libertine}
+\setsansfont{Linux Biolinum}
 \usepackage{polyglossia}
 \setmainlanguage{french}
 \usepackage{pifont}
@@ -10,11 +13,8 @@
             pdftitle={Le caveau},
             pdfsubject={Nouvelle dans le style de H.P. Lovecraft},
             pdfkeywords={Horreur, Cthulhu, Policier},
-            pdfcreator={XeLaTeX},
-            hidelinks]{hyperref}
+            pdfcreator={XeLaTeX with hyperref package},
+            hidelinks,
+            frenchlinks=true]{hyperref}
 \pagestyle{plain}
 \chapterstyle{dash}
-\usepackage{libertine}
-\setromanfont[Mapping=tex-text,Ligatures=Common]{Linux Libertine}
-\setsansfont[Mapping=tex-text,Ligatures=Common]{Linux Biolinum}
-\setmonofont[Mapping=tex-text]{Liberation Mono}
