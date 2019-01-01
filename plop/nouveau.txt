@@ -1,1 +1,3 @@
 Coucou je suis un nouveau fichier dans le dépôt git
+
+Bon et maintenant on rajoute un truc dans le fichier
